@@ -1,0 +1,129 @@
+body{
+	box-sizing: border-box;
+	overflow: auto;
+    background-color: #ffff;
+}
+
+.pop
+{
+	width: 70%;
+    padding:65px;
+	color: #fff;
+	top: 102%;
+	left: 55%;
+	position: absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	/*background-image: url(./images/poshan1.png);*/
+	/*text-align: : center;*/
+}
+
+.button{
+	background:#33312d ;
+	/**/
+    padding: 10px 10px;
+	color:#f7f5f5;
+    width:30%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-radius:5px;
+    position: relative;
+    float: left;
+    box-sizing:border-box;
+    margin: 40px 10px;
+    text-decoration: none;
+    transition: 0.4s;
+    text-align: center; 
+    font-size: 16px;   /*margin-top*/
+}
+
+.button:hover{
+	background: #fff;
+	color: black;
+	border-style: solid;
+}
+
+.popup{
+	background: rgba(0,0,0,0.6);
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display:none;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+ .popup-content{
+ 	height: 65%;
+    width:800px;
+ 	background: #d2d4d3;
+ 	padding: 20px;
+ 	border-radius: 5px;
+ 	position: relative;
+ 	/*background-image: url(./images/poshan1.png);*/
+ 	/*opacity: 1px;*/
+ }
+
+ .popup-content3{
+ 	height: 85%;
+    width: 800px;
+ 	background: #d2d4d3;
+ 	padding: 20px;
+ 	border-radius: 5px;
+ 	position: relative;
+ }
+
+ .popup-content2{
+ 	height: 95%;
+    width: 800px;
+ 	background: #d2d4d3;
+ 	padding: 20px;
+ 	border-radius: 5px;
+ 	position: relative;
+ }
+
+
+ .close{
+ 	position: absolute;
+ 	top: 5px;
+ 	right: 5px;
+ 	background: #fff;
+ 	height: 30px;
+ 	width: 30px;
+ 	border-radius: 50%;
+ 	cursor: pointer;
+
+ }
+ 
+
+.btn:hover{
+	background: red;
+	color: black;
+	border-style: solid;
+}
+
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin:auto;
+  position:relative;
+}
+
+th, td {
+  padding: 35px;
+}
+th{
+	colspan=2;
+}
+td{
+	max-width:70%
+}
+

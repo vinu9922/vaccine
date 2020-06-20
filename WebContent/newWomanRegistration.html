@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<title>Home</title>
+	<script type="text/javascript" src="valid.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body id="admin_body">
+
+
+	<div class="container1" id="container">
+		<header>
+			<img src="./images/header.png" style="width: 100%">
+		</header>
+		<div id="navigate">
+			<ul>
+				<a href="search.html"><li class="id1">Search</li></a>
+				<a href="newWomanRegistration.html"><li class="id1">New Woman Registration</li></a>
+				<a href="newChildRegistration.html"><li class="id1">New Child Registration</li></a>
+				<a href="pending.jsp"><li class="id1">Pending users</li></a>
+				<a href="transfer.html"><li class="id1">Transfered user</li></a>
+				<a href="dead.html"><li class="id1">Dead</li></a>
+				<a href="update.jsp"><li class="id1">Update</li></a>
+				<a href="forgot.html"><li class="id1">Forgot Login details</li></a>
+			</ul>	
+		</div>
+		<div id="inbox">
+			<form  name="Patient" id="Patient" method="post" autocomplete="on" enctype="form-data">
+	<div class="container">
+		<section id="lf"><br>
+		<center><h1>--- Women's Registration ---</h1></center>
+
+		<br>
+		<hr>
+		<div class="nested">
+			<div> Name of Woman:</div>
+			<div class="input"><input type="text" name="FullName" id="FullName"></div>
+		</div>
+		<div class="nested">
+			<div> Aadhar no.:</div>
+			<div class="input"><input type="text" name="Aadhar" id="Aadhar"></div>
+		</div>
+		<div class="nested">
+			<div>Mobile no.:</div>
+			<div><input type="text" name="Mobile" id="Mobile"></div>
+		</div>
+		<div class="nested">
+			<div> Date Of Pregnancy:</div>
+			<div class="input"><input type="date" name="Pregnancy" id="Pregnancy"></div>
+		</div>
+		<div class="nested">
+			<div class="input"><input type="hidden" name="form" value="womanreg"></div>
+		</div>
+
+</div>
+<center><button class="btn" type="button" onclick="return womenreg()">SUBMIT</button></center>
+</form>
+<br>
+<br>
+		</div>
+	</div>
+</body>
+
+</html>
